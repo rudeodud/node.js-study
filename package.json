@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "uglify-js": "^3.19.3"
+  },
+  "scripts": {
+    "start": "node webserver.js",
+    "asdf": "uglifyjs agilfy.js"
   }
 }
