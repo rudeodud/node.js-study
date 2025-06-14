@@ -26,7 +26,7 @@ nunjucks.configure('views', {
 
 mongoose.connect('mongodb://localhost:27017/mydb')
   .then(() => console.log("✅ MongoDB 연결 성공"))
-  .catch(err => console.error("❌ MongoDB 연결 실패:", err));
+  .catch(err => console.error("❌ MongoDB 연결 실패:", err));   
 
 const writingSchema = new mongoose.Schema({
   title: String,
